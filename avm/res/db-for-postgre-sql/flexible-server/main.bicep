@@ -98,7 +98,7 @@ param highAvailability string = 'ZoneRedundant'
 @description('Optional. The mode to create a new PostgreSQL server.')
 param createMode string = 'Default'
 
-import { managedIdentityOnlyUserAssignedType } from 'br/public:avm/utl/types/avm-common-types:0.2.1'
+import { managedIdentityOnlyUserAssignedType } from 'br/public:avm/utl/types/avm-common-types:0.2.0'
 @description('Conditional. The managed identity definition for this resource. Required if \'cMKKeyName\' is not empty.')
 param managedIdentities managedIdentityOnlyUserAssignedType?
 
